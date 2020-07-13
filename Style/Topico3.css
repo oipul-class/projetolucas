@@ -1,0 +1,308 @@
+/* CSS RESET*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+  font-family: Blocks;
+  src: url(../Fonts/VCR.ttf);
+}
+
+/* regras globais */
+
+#body {
+  background-image: url(../images/Topico3/blackWallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: none;
+}
+
+#image{
+    background-image: url(../images/fundo2.jfif);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#image2{
+    background-image: url(../images/fundo4.jpg);
+    background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  color: inherit;
+}
+#title {
+    margin-bottom: 30px;
+}
+
+h1{
+
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  font-family: arial;
+}
+
+h2{
+  font-size: 30px;
+  text-align: left;
+  color:white;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p{
+
+  font-size: 18.5px;
+  font-family: arial;
+  color: white;
+  text-align: justify;
+
+}
+
+/* fontes */
+
+
+.MenuFont {
+    font-size: 15px;
+    font-family: Blocks;
+    color: white;
+}
+
+/* padrões */
+.Conteudo {
+    width: 100%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterOBJ {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--Conteudo*/
+
+/* -Header- */
+
+#Header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 159, 187, 0.7);
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #Header {
+        width: 100%;
+        height: 310px;
+        margin-bottom: 20px;
+    }
+
+    #Header_Menus {
+        height: 90px;
+        width: 100%;
+        border: solid 2px black;
+    }
+    #Conteudo {
+        justify-content: center;
+    }
+
+}
+
+#Header_logo {
+    height: 156px;
+    width: 50%;
+    float: left;
+    clear: both;
+    padding-top: 10px;
+}
+
+#Header_LogoIMG {
+    height: 100%;
+    width: 350px;
+    margin-left: 50%;
+    left: 0;
+}
+
+#Header_Menus {
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px black;
+}
+
+#OnSite {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  cursor: default;
+  text-align: center;
+  background-color: rgba(66, 66, 66, 0.7);
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  background-color: rgba(66, 66, 66, 0.7);
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.Menu:hover {
+  width: 100px;
+  height: 70px;
+  padding-top: 23px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-top: 9px;
+}
+
+.Menu:active {
+  background-color: rgb(95, 95, 95);
+}
+/*
+Propriedade "Display:"
+
+Valores:
+    - block: elemento aparece como se fosse bloco;
+    - inline: elemento aparece como se fosse em linha;
+    - none: elemento não aparece;
+*/
+#Main_content{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.Title{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px; 27, 3, 54
+    padding-bottom: 20px;
+    -webkit-text-stroke-color: rgba(0, 159, 187, 1);
+    text-shadow: 10px 10px 75px rgba(100, 159, 187, 1);
+}
+
+/*lists*/
+.li_ul{
+    list-style-type: "-";
+    font-size: 17.26px;
+    font-family: arial;
+    text-align: left;
+    color: white;
+    margin-left: 3% ;
+    line-height: 1.5;
+}
+
+ul{
+    top: 0;
+}
+/*lists*/
+
+
+
+#hr{
+    width: 100%;
+    background-color: white;
+    height: 3px;
+}
+
+.images{
+    width: 33.3;
+}
+/* conteudo */
+
+  /* rodapé */
+
+#Rodape {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 159, 187, 0.7);
+    clear: both;
+}
+
+#Rodape_logo {
+    height: 200px;
+    width: 750px;
+    float: left;
+    clear: both;
+    padding-top: 10px;
+}
+
+#Rodape_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 440px;
+    float: left;
+    clear: both;
+}
+
+#Rodape_Users {
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+
+#Gab {
+  float: left;
+  clear: both;
+}
+
+#Luc {
+  float: left;
+}
+
+#Caio {
+  clear: both;
+  background-color: white;
+  float: left;
+}
+
+#Joh {
+  background-color: white;
+}
+
+.User_Icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: 1s;
+}
+
+.User_Icon:hover {
+  border: solid 4px blue;
+  cursor: pointer;
+}
+s
+

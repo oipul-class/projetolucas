@@ -1,0 +1,110 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Generic styles ----------------------------------------------*/
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+section{ 27, 3, 54
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* For desktop: */
+/*default col*/
+.col-div {width: 44%; float: left; margin:2%;}
+.col {width: 50%; padding-right: }
+
+.col-1 {width: 8.33%; height: auto;}
+.col-2 {width: 16.66%; height: auto;}
+.col-3 {width: 25%; height: auto;}
+.col-4 {width: 33.33%; height: auto;}
+.col-5 {width: 41.66%; height: auto;}
+.col-6 {width: 58.33%; height: auto;}
+.col-7 {width: 66.66%; height: auto;}
+.col-8 {width: 75%; height: auto;}
+.col-9 {width: 83.33%; height: auto;}
+.col-10 {width: 91.66%; height: auto;}
+.col-11 {width: 100%; height: auto;}
+.col-12 { width: 100%;}
+.col-in {width: 40%;}
+.cards {
+    width: 90%;
+    max-width: 85%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+
+.flex-div{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    top:0;
+}
+article {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+
+}
+
+.article-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  text-align: left;
+    padding-right: 4%;
+}
+
+.article-title {
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container {
+  font-size: 100%;
+  color: black;
+    padding-bottom: 20px;
+}
+
+.container img {
+    margin-top: 2%;
+}
+
+.definition-list-item {
+    list-style: "-"
+}
+
+#ProgramsContent {
+  float: left;
+}
+
+#ProgramsImage {
+  float: right;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col"] {
+    width: 100%;
+  }
+
+}
+
+section {
+    margin: auto;
+}

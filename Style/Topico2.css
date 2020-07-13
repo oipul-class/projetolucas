@@ -1,0 +1,814 @@
+/* CSS RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+  font-family: Blocks;
+  src: url(../Fonts/Topico1/VCR.ttf);
+}
+
+/* regras globais */
+
+#body {
+  background-image: url(../images/Topico2/Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  color: inherit;
+}
+.FullIMG{
+    width: inherit;
+    height: inherit;
+}
+.Espacamento{
+    margin-top: 0px;
+}
+h1, h2{
+  
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  font-family: arial;
+  letter-spacing: 2px;
+}
+
+h2{
+  
+  font-size: 30px;
+  
+}
+
+p{
+
+  font-size: 20px;
+
+  font-family: arial;
+
+  text-align: justify;
+
+  color: white;
+    
+    margin-top: 15px; 
+}
+
+/* fontes */
+
+
+.MenuFont {
+    font-size: 15px;
+    font-family: Blocks;
+    color: white;
+}
+
+/* padrões */
+.Conteudo {
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterOBJ {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--Partes do site*/
+
+/* -Header- */
+
+#Header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(38, 80, 218, 0.9);
+}
+
+#Header_logo {
+    height: 156px;
+    width: 710px;
+    float: left;
+    clear: both; 
+    padding-top: 10px;
+}
+
+#Header_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 350px;
+}
+
+#Header_Menus {
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px black;
+    background-color: gray;
+}
+
+#OnSite {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  cursor: default;
+  text-align: center;
+  background-color: rgba(66, 66, 66, 0.7);
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  background-color: rgba(66, 66, 66, 0.7);
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.Menu:hover {
+  width: 100px;
+  height: 70px;
+  padding-top: 23px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-top: 9px;
+}
+
+.Menu:active {
+  background-color: rgb(95, 95, 95);
+}
+
+/* conteudo */
+#TituloPrincipal{
+    margin-bottom: 60px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+#sobre {
+    height: 750px;
+    width: 1300px;
+    background-color: #2d2d5c;
+  }
+  /* Seção da caixa definição*/
+  #CaixaDefinicao{
+    /* background-color: purple; */
+    width:600px;
+    height:600px;
+    float: left;
+     margin-left: 20px;
+  }
+  #DefinicaoTexto{
+    float: left;
+    /* background-color: lightblue; */
+    width: 300px;
+    height:450px;
+  }
+  #DefinicaoImagem{
+    float: left;
+    /* background-color: palevioletred; */
+    width: 300px;
+    height:450px;
+  }
+  #DefinicaoImagem img{
+    width: inherit;
+    height: inherit;
+  }
+  /*Seção da caixa História*/
+  #CaixaHistoria{
+    /* background-color: chocolate; */
+    width:  600px;
+    height: 600px;
+    float: left;
+    margin-left: 60px;
+  }
+  #ConteudoHistoria{
+   height: inherit;
+   width: inherit;
+   /* background-color: cyan; */
+    
+  }
+  .Coluna1Titulo{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #HistoriaTexto{
+    float: left;
+    height: 540px;
+    width:350px;
+    /* background-color: cyan; */
+  } 
+  #HistoriaImagens{
+    float: left;
+    height: 540px;
+    width:250px;
+    /* background-color: chartreuse; */
+  }
+  #HistoriaImagens img{
+     width: 200px;
+     height: 200px;
+     margin-top: 50px;     
+   /* background-color: chartreuse; */
+  }
+  #LinhaConteudo2{
+    height: 600px;
+    width: 1300px;
+    background-color: #2d2d5c; 
+  }
+  .Linha2Colunas{
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin-left: 25px;
+  }
+  .Linha2Subtitulos{
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .NavegacaoImagem{
+    height: 100px;
+    width: 100px;
+    background-color: #2d2d5c;
+    float: left; 
+    margin-left: 70px;
+  }
+  .NavegacaoImagem img{
+      width: inherit;
+      height: inherit;
+  }
+  #Linha2Coluna2Texto{
+    float: left;
+    /* background-color: khaki; */
+    width: 220px;
+    height: 400px;
+  }
+  #Linha2Coluna2Imagem{
+    margin-top: 110px;
+    margin-left: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    /* background-color: lightgoldenrodyellow; */
+  }
+  #Linha2Coluna2Imagem img{
+    width: inherit;
+    height: inherit;
+  }
+  #ExclusaoLinha2{
+    width: 150px;
+    height: 270px;
+    /* background-color: bisque; */
+    float: left;
+  }
+  #ExclusaoLinha2Imagem{
+    width: 200px;
+    height: 200px;
+    /* background-color: chocolate; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #ExclusaoLinha2Imagem img{
+    width: inherit;
+    height: inherit;
+  }
+  
+  /* Linha 3 */
+  
+  #Linha3{
+    width: 1300px;
+    height: 600px;
+    background-color: #2d2d5c;
+  }
+  .ColunasLinha3{
+    height: 550px;
+    width: 400px;
+    /* background-color: darkslategrey; */
+    float: left;
+    margin-left: 30px;
+  }
+  .ColunasLinha3 p{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #Linha3Coluna{
+    float: left;
+    /* background-color: dimgrey;  */
+    height: 200px;
+    width: 200px;
+  }
+
+  #Linha3Coluna img{
+    width: 180px;
+    height: 180px;
+  }
+  #Linha3Coluna2, #Linha3Coluna3{
+    height: 400px;
+    width: 230px;
+    float: left;
+    /* background-color: cornflowerblue; */
+  }
+  
+  #Linha3Coluna3 p{
+    margin-bottom: 20px;
+  }
+  
+  #Linha3Coluna2_Imagem, #Linha3Coluna3_Imagem{
+    height: 200px;
+    float: left;
+    width: 150px;
+    /* background-color: azure; */
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  #Linha3Coluna2_Imagem img{
+    margin-top: 50px;;
+    width: inherit;
+    height: 150px;
+  }
+  #Linha3Coluna3_Imagem img{
+    margin-top: 50px;;
+    width: inherit;
+    height: 150px;
+  }
+  /* LINHA 4 */
+  
+  #Linha4{
+    width: 1300px;
+    height: 600px;
+    background-color: #2d2d5c;
+  }
+  #Linha4_Texto{
+    float: left;
+    width: 680px;
+    height: inherit;
+    /* background-color: darkred; */
+    margin-left: 20px;
+  }
+  #Linha4_Texto p{
+    font-size: 30px;
+  }
+  #Linha4_Texto p{
+    margin-bottom: 40px;
+  }
+  #Linha4_Imagem{
+    float: left;
+    width: 580px;
+    height: inherit;
+    /* background-color: rgb(53, 34, 34); */
+    margin-right: 20px;
+  }
+
+/* Modo Gráfico */
+#ModoGrafico{
+    height: 600px;
+    width: 1300px;
+    background-color:  #2d2d5c; 
+}
+#ModoGraficoTexto {
+    width: 30%;
+    height: 500px;
+    background-color: #2d2d5c;
+    padding-left: 60px;
+    padding-right: 60px;
+    clear: both;
+    float: left;
+}
+
+
+#ModoGraficoTexto p{
+    
+    font-size: 25px;
+}
+
+#ModoGraficoImagem{
+    width: 900px;
+    height: 500px;
+/*  background-color: chartreuse;*/
+    float: right;
+    text-align: center;
+}
+#ModoGraficoImagem img{
+    margin-top: 40px;
+    border-radius: 5px;
+    border: solid 3px;
+}
+
+    /* Área de Trabalho */
+#Linha6{
+    width: 1300px;
+    height: 600px;
+    background-color: #2d2d5c;
+}
+#AreaDeTrabalho {
+    width: 30%;
+    height: 600px;
+    float: left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#AreaDeTrabalhoImagem {
+	height: 300px;
+    width: 350px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#Linha7{
+    width: 1300px;
+    height: 650px;
+    background-color: #2d2d5c;
+}
+
+/* Trabalho com Janelas */
+
+#TrabalhoComJanelas {
+    padding-left:10px;
+    padding-right:10px;
+	width: 40%;
+	height: 600px;
+	float: left;
+}
+
+#JanelasImagem {
+	height: 400px;
+    margin-top: 40px;
+}
+
+
+/* Configuração do Sistema */
+
+#ConfiguracaoDoSistema {
+	width: 350px;
+	height: 600px;
+	float: left;
+	background-color: #2d2d5c;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#ConfiguracaoDoSistemaImagem {
+	height: 400px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#FerramentasDoSistemaTexto {
+	width: 1200px;
+	height: 100px;
+	padding-top: 15px;
+	background-color: #2d2d5c;
+	clear: both;
+}
+
+#FerramentasDoSistemaImagem {
+    margin-top: 10px;
+    width: 1200px;
+	height: 500px;
+	background-color: mediumseagreen;
+}
+#FerramentasDoSistemaImagem img{
+    text-align: center;
+}
+#Linha8{
+    width: 1300px;
+    height: 650px;
+    background-color: #2d2d5c;
+}
+#Acessorios {
+	width: 600px;
+	height: 600px;
+	float: left;
+    margin-left: 30px;
+}
+
+#Acessorios ul {
+	color: white;
+	list-style: none;
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+    text-align: left
+}
+
+#AcessoriosImagem {
+	height: 300px;
+	width: 400px;
+}
+
+#MenuDeAjuda {
+	width: 600px;
+	height: 600px;
+	margin-top: 10px;
+	background-color: #2d2d5c;
+	float: right;
+}
+
+#MenuDeAjudaTexto {
+	
+}
+#MenuDeAjudaTexto p {
+	text-align: left;
+}
+
+#MenuDeAjudaTexto h2 {
+	text-align: left;
+}
+
+#MenuDeAjudaImagem {
+	margin-top: 80px;
+    height: 300px;
+    width: 500px;
+}
+
+#Linha9{
+    width: 1300px;
+    height: 800px;
+    background-color: #2d2d5c;
+    
+}
+#Linha9Coluna2{
+    margin-left: 20px;
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+#Linha9Coluna2Linha2{
+    margin-left: 20px;
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+#GerenciamentoDeArquivos {
+	width: 250px;
+	height: 600px;
+	float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#GerenciamentoDeArquivos p{
+    margin-top: 50px;
+}
+
+#GerenciamentoDeArquivosImagem {
+	width: 350px;
+	height: 600px;
+	background-color: red;
+	float: left;
+}
+
+#UsuariosEPermissoes {
+	width: 600px;
+	height: 100px;
+	background-color: #2d2d5c;
+	float: left;
+}
+
+#UsuariosEPermissoes p, #UsuariosEPermissoes2 p {
+	font-size: 17px;
+}
+
+#UsuariosEPermissoes2 {
+	width:  290px;
+    margin-right: 10px;
+	height: 300px;
+	background-color: #2d2d5c;
+	float: left;
+}
+
+#UsuariosEPermissoesImagem {
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+#InicializacaoFinalizacao {
+	width: 40%;
+	height: 500px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: #2d2d5c;
+	clear: both;
+	float: left;
+}
+
+#InstalacaoMaquinaVirtualImagem {
+	width: 300px;
+	height: 500px;
+	margin-top: 10px;
+	background-color: blue;
+	float: left;
+}
+
+#InstalacaoMaquinaVirtual {
+	width: 35%;
+	height: 500px;
+	padding-left: 25px;
+	padding-right: 20px;
+	margin-top: 10px;
+	background-color: #2d2d5c;
+	float: right;
+}
+
+#InstalacaoMaquinaVirtual p {
+	font-size: 16px;
+}
+
+#InstalacaoMaquinaVirtual ol {
+	color: white;
+	font-family: arial;
+}
+
+#InstalacaoMaquinaVirtual h2 {
+	font-size: 28px;
+}
+#Linha10{
+    width: 1300px;
+    height: 600px;
+    background-color: #2d2d5c;
+}
+#Linha11{
+    width: 1300px;
+    height: 500px;
+    background-color: #2d2d5c;
+}
+#Pacotes {
+	width: 400px;
+	height: 500px;
+	clear: both;
+	float: left;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;   
+}
+
+#Pacotes a:link {
+	text-decoration: underline;
+	color: blue;
+}
+
+#Atualizacao {
+	width: 400px;
+	height: 500px;
+	background-color: #2d2d5c;
+	float: left;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Programas {
+	width: 400px;
+	height: 500px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+	float: left;
+	background-color: #2d2d5c;
+}
+#Linha12{
+    width: 1300px;
+    height: 500px;
+	background-color: #2d2d5c;
+}
+
+#Programas2 {
+	width: 500px;
+	height: 500px;
+	float: left;
+	background-color: #2d2d5c;
+}
+
+#Programas2Texto {
+	width: 740px;
+	height: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Programas2Texto p {
+	font-size: 18px;
+}
+
+#Programas2Imagem {
+	width: 700px;
+	height: 200px;
+	background-color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#Programas2Imagem img{
+    width: inherit;
+    height: inherit;
+}
+#Programas2Imagem2 {
+	width: 550px;
+	height: 500px;
+    margin-right: 20px;
+	float: right;
+	background-color: red;
+}
+#Programas2Imagem2 img{
+    width: inherit;
+    height: inherit;
+}
+
+  /* rodapé */
+
+#Rodape {
+    width: 100%;
+    height: 200px;
+    background-color:  rgba(38, 80, 218, 0.9);
+
+    clear: both;
+}
+
+#Rodape_logo {
+    height: 200px;
+    width: 750px;
+    float: left;
+    clear: both;
+    padding-top: 10px;
+}
+
+#Rodape_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 440px;
+    float: left;
+    clear: both;
+}
+
+#Rodape_Users {
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+
+#Gab {
+  float: left;
+  clear: both;
+}
+
+#Luc {
+  float: left;
+}
+
+#Caio {
+  clear: both;
+  background-color: white;
+  float: left;
+}
+
+#Joh {
+  background-color: white;
+}
+
+.User_Icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: 0.1s;
+}
+
+.User_Icon:hover {
+  border: solid 4px blue;
+  cursor: pointer;
+}

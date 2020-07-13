@@ -1,0 +1,304 @@
+/* CSS RESET*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+font-family: Writer;
+src: url(../Fonts/Topico4/Typewriter.ttf);
+}
+
+/* regras globais */
+
+#body {
+background-color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+color: inherit;
+}
+
+h1, h2,h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: Writer, Arial;
+  letter-spacing: 10px;
+  
+}
+
+h2{
+font-size: 30px;
+}
+
+h3{
+font-size: 19px;
+}
+
+p{
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: Writer, Arial;
+  text-align: center;
+  color: black;
+
+}
+
+li {
+  list-style: none;
+}
+/* fontes */
+
+
+.MenuFont {
+  font-size: 15px;
+  font-family: Blocks;
+  color: white;
+}
+
+/* padrões */
+.Conteudo {
+  width: 1300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CenterOBJ {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--Partes do site*/
+#DivDeTodosOsConteudo {
+  padding-top: 250px; 
+}
+/* -Header- */
+
+#Header {
+  width: 100%;
+  height: 160px;
+  background-color: rgba(0, 159, 187, 0.7);
+  position: fixed;
+}
+
+#Header_logo {
+  height: 156px;
+  width: 710px;
+  float: left;
+  padding-top: 10px;
+  
+}
+
+#Header_LogoIMG {
+  height: 140px;
+  width: 350px;
+  margin-left: 350px;
+}
+
+#Header_Menus {
+  height: 90px;
+  width: 590px;
+  float: right;
+  margin-top: 45px;
+  border: solid 2px black;
+}
+
+#OnSite {
+width: 90px;
+height: 50px;
+padding-top: 12px;
+cursor: default;
+text-align: center;
+background-color: rgba(66, 66, 66, 0.7);
+float: left;
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px blue;
+border-radius: 8px;
+}
+
+.Menu {
+width: 90px;
+height: 50px;
+padding-top: 12px;
+text-align: center;
+float: left;
+background-color: rgba(66, 66, 66, 0.7);
+margin-left: 22px;
+margin-top: 20px;
+transition: 0.15s;
+border: solid 1px white;
+border-radius: 8px;
+text-decoration: none;
+}
+
+.Menu:hover {
+width: 100px;
+height: 70px;
+padding-top: 23px;
+cursor: pointer;
+background-color: white;
+color: black;
+border: solid 1px black;
+margin-top: 9px;
+}
+
+.Menu:active {
+background-color: rgb(95, 95, 95);
+}
+/*Menu De Navegação*/
+
+/* conteudo */
+/*--Titulo */
+#Banner{
+  background-image: url(../images/Topico4/Banner.jpg); 
+  width: 100%;
+  height: 600px;  
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  margin-bottom: 50px;
+}
+
+#Titulo {
+  height: 50px;
+  width: 1300px;
+}
+/*--Definição */
+#Definiao {
+  width: 1300px;
+  height: 100px;
+}
+/*--Formatações */
+#Formatacoes {
+  height: 470px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  width: 600px;
+  margin-right: 50px;
+  margin-top: 50px;
+  float: left;
+  clear: both;
+  border: solid 1px black;
+  padding-left: 35px;
+}
+
+#Formatacoes h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: Writer, Arial;
+  letter-spacing: 10px;
+}
+
+#Formatacoes li {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: Writer, Arial;
+  text-align: center;
+  color: black;
+  list-style: decimal;
+}
+
+#Insercao {
+  margin-top: 50px;
+  height: 470px;
+  width: 650px;
+  float: left;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+#Insercao h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: Writer, Arial;
+  letter-spacing: 10px;
+}
+
+#Insercao li {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: Writer, Arial;
+  text-align: center;
+  color: black;
+  list-style: decimal;
+}
+/* rodapé */
+
+#Rodape {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 159, 187, 0.7);
+  
+  clear: both;
+}
+
+#Rodape_logo {
+  height: 200px;
+  width: 750px;
+  float: left;
+  clear: both; 
+  padding-top: 30px;
+}
+
+#Rodape_LogoIMG {
+  height: 140px;
+  width: 350px;
+  margin-left: 440px;
+  float: left;
+  clear: both;
+}
+
+#Rodape_Users {
+  height: 200px;
+  width: 250px;
+  float: right;
+}
+
+#Gab {
+float: left;
+clear: both;
+}
+
+#Luc {
+float: left;
+}
+
+#Caio {
+clear: both;
+background-color: white;
+float: left;
+}
+
+#Joh {
+background-color: white;
+}
+
+.User_Icon {
+height: 80px;
+width: 80px;
+border-radius: 100%;
+margin: 10px;
+transition: 0.1s;
+}
+
+.User_Icon:hover {
+border: solid 4px blue;
+cursor: pointer;
+}

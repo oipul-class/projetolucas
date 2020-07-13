@@ -1,0 +1,24 @@
+16:57 08/07/2020#
+# titulo // cria o titulo
+
+README.md
+
+
+
+
+
+
+
+
+do git---
+
+git add - mandar os arquivos para o repositório
+git add (.) -  manda tudo
+-m - mensagem
+git status - ver os arquivos que estão/não estão no repositório
+
+-pra mandar arquivos
+
+1. git add (arquivo) 
+2. git commit -m "(mensagem)
+3. git push - pra dar upload

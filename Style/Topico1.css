@@ -1,0 +1,423 @@
+/* CSS RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+  font-family: Blocks;
+  src: url(../Fonts/Topico1/VCR.ttf);
+}
+
+/* regras globais */
+
+#body {
+  background-image: url(../images/Topico1/FundoDoTopico1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  color: inherit;
+}
+
+h1, h2,h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+    text-shadow: 2px 2px 1px #07137d;
+    font-family: Blocks, Arial;
+    letter-spacing: 10px;
+    
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 19px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Blocks, Arial;
+    text-align: center;
+    color: black;
+
+}
+
+li {
+    list-style: none;
+}
+/* fontes */
+
+
+.MenuFont {
+    font-size: 15px;
+    font-family: Blocks;
+    color: white;
+}
+
+/* padrões */
+.Conteudo {
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterOBJ {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--Partes do site*/
+#DivDeTodosOsConteudo {
+    padding-top: 250px; 
+}
+/* -Header- */
+
+#Header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 159, 187, 0.7);
+    position: fixed;
+}
+
+#Header_logo {
+    height: 156px;
+    width: 510px;
+    float: left;
+    padding-top: 10px;
+    
+}
+
+#Header_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 150px;
+}
+
+#Header_Menus {
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px black;
+}
+
+#OnSite {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  cursor: default;
+  text-align: center;
+  background-color: rgba(66, 66, 66, 0.7);
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  text-align: center;
+  float: left;
+  background-color: rgba(66, 66, 66, 0.7);
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.Menu:hover {
+  width: 100px;
+  height: 70px;
+  padding-top: 23px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-top: 9px;
+}
+
+.Menu:active {
+  background-color: rgb(95, 95, 95);
+}
+/*Menu De Navegação*/
+
+#MenuNavegacao {
+    height: 158px;
+    width: 198px;
+    float: left;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+@keyframes NavSelect {
+    0% {background-color: black;}
+    50% {background-color: grey;}
+    100% {background-color: black;}
+}
+
+.SeletoresDeNavegacao {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.SeletoresDeNavegacao:hover {
+    animation-name: NavSelect;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* conteudo */
+
+#Titulo {
+    width: 1300px;
+    height: 50px;
+}
+/*-Definicao*/
+#Definicao {
+    height: 100px;
+    width: 1300px;
+}
+
+#Definicao_Texto {
+    float: left;
+    clear: both;
+    width: 1050px;
+}
+/*--Historia*/
+#Historia {
+    margin-top: 70px;
+    height: 800px;
+    width: 1300px;
+}
+/* texto */
+#Historia_PrimeiroTexto {
+    float: left;
+    clear: both;
+    width: 900px;
+    height: 420px;
+}
+#Historia_PrimeiroTexto_Texto1, Historia_PrimeiroTexto_Texto2{
+    width: inherit;
+}
+
+#Historia_PrimeiroTexto_Texto2 {
+    margin-top: 20px;
+}
+
+#Historia_Image {
+    width: 400px;
+    height: 420px;
+    float: left;
+}
+
+#Historia_Image_OldSops {
+    width: 400px;
+    height: 400px;
+}
+
+#Historia_SegundoTexto {
+    clear: both;
+    width: 1300px;
+    height: 500px;
+}
+
+#Historia_SegundoTexto_Texto1 , #Historia_SegundoTexto_Texto2, #Historia_SegundoTexto_Texto3  {
+    width: inherit
+}
+
+#Historia_SegundoTexto_Texto2 , #Historia_SegundoTexto_Texto3  {
+    margin-top: 10px;
+}
+/*--Gerenciador de processo*/
+#GerenciadorDeProcesso {
+    margin-top: 70px;
+    width: 1300px;
+    height: 210px;
+}
+
+#GerenciadorDeProcesso_Texto {
+    width: 900px;
+    height: 200px;
+    float: left;
+    clear: both;
+}
+
+#GerenciadorDeProcesso_Imagem {
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding-left: 100px;
+}
+
+#GerenciadorDeProcesso_DivImagem {
+    width: 200px;
+    height: 200px;
+}
+/*--Sistema de arquivo*/
+#SistemasDeArquivos {
+    margin-top: 70px;
+    width: 1300px;
+    height: 300px;
+}
+
+#SistemasDeArquivos_Texto {
+    float: left;
+    width: 1000px;
+    height: 300px;
+    clear: both;
+}
+
+#SistemasDeArquivos_Image {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+#SistemasDeArquivos_DivImage {
+    width: 300px;
+    height: 300px;
+}
+/* MonoTarefaTexto*/
+
+#MonoTarefa {
+    margin-top: 70px;
+    height: 300px;
+    width: 1300px;
+}
+
+#MonoTarefaTexto1 {
+    height: 160px;
+    width: 1300px;
+}
+
+#MonoTarefaTexto2 {
+    height: 120px;
+    width: 1000px;
+    float: left;
+    
+}
+
+#MonoTarefaImageDiv {
+    height: 120px;
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#MonoTarefaImage {
+    clear: both;
+    height: 120px;
+    width: 120px;
+}
+
+@keyframes swing {
+    0% { transform: rotate(0deg)}
+    60% {transform: rotate3d(0,180,0,180deg);}
+    100% {transform: rotate3d(0,360,0,360deg);}
+}
+
+#MonoTarefaImageDiv:hover {
+    animation-name: swing;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+
+#MultiTarefa {
+    margin-top: 50px;
+    height: auto;
+    width: 1300px;
+}
+
+#MultiTarefa p {
+    margin-bottom: 8px;
+}
+/* rodapé */
+
+#Rodape {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 159, 187, 0.7);
+    
+    clear: both;
+}
+
+#Rodape_logo {
+    height: 200px;
+    width: 750px;
+    float: left;
+    clear: both; 
+    padding-top: 30px;
+}
+
+#Rodape_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 440px;
+    float: left;
+    clear: both;
+}
+
+#Rodape_Users {
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+
+#Gab {
+  float: left;
+  clear: both;
+}
+
+#Luc {
+  float: left;
+}
+
+#Caio {
+  clear: both;
+  background-color: white;
+  float: left;
+}
+
+#Joh {
+  background-color: white;
+}
+
+.User_Icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: 0.1s;
+}
+
+.User_Icon:hover {
+  border: solid 4px blue;
+  cursor: pointer;
+}

@@ -1,0 +1,589 @@
+/* CSS RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+  font-family: Blocks;
+  src: url(../Fonts/Topico1/VCR.ttf);
+}
+
+/* regras globais */
+
+#body {
+  background-image: url(../images/Topico5/ExcelWallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  color: inherit;
+}
+
+h1, h2{
+  
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  font-family: arial;
+}
+
+h2{
+  
+  font-size: 30px;
+  
+}
+
+p{
+
+  font-size: 20px;
+
+  font-family: arial;
+
+  text-align: center;
+
+  color: white;
+
+}
+
+/* fontes */
+
+
+.MenuFont {
+    font-size: 15px;
+    font-family: Blocks;
+    color: white;
+}
+
+/* padrões */
+.Conteudo {
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterOBJ {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--Partes do site*/
+
+/* -Header- */
+
+#Header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 159, 187, 0.7);
+}
+
+#Header_logo {
+    height: 156px;
+    width: 710px;
+    float: left;
+    clear: both; 
+    padding-top: 10px;
+}
+
+#Header_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 350px;
+}
+
+#Header_Menus {
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px black;
+}
+
+#OnSite {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  cursor: default;
+  text-align: center;
+  background-color: rgba(66, 66, 66, 0.7);
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  background-color: rgba(66, 66, 66, 0.7);
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.Menu:hover {
+  width: 100px;
+  height: 70px;
+  padding-top: 23px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-top: 9px;
+}
+
+.Menu:active {
+  background-color: rgb(95, 95, 95);
+}
+
+/* conteudo */
+
+#Titulo {
+
+  padding-top:20px;
+  padding-bottom: 20px;
+
+}
+
+#CriacaoDePlanilhas {
+
+  width: 65%;
+  height: 400px;
+  float: left;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+#CriacaoDePlanilhas h2{
+
+  text-align: left;
+
+}
+
+#CriacaoDePlanilhas p{
+
+  text-align: left;
+
+}
+
+#CriacaoDePlanilhasImagem {
+
+  width: 35%;
+  height: 400px;
+  padding-top: 20px;
+  float: right;
+ 
+}
+
+#FormatacaoDeCelulasImagem {
+
+  width: 55%;
+  height: 450px;
+  padding-top: 20px;
+  clear: both;
+  float: left;
+ 
+
+}
+#FormatacaoDeCelulas {
+
+  width: 45%;
+  height: 450px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 20px;
+  float: right;
+  
+}
+
+#FormatacaoDeCelulas p {
+
+  text-align: right;
+
+}
+
+#FormatacaoDeCelulas h2 {
+
+  text-align: right;
+
+}
+
+#EntradaDeDados {
+
+  width: 70%;
+  height: 550px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 20px;
+  clear: both;
+  float: left;
+  padding-right: 60px;
+ 
+
+}
+
+#EntradaDeDados p {
+
+  text-align: left;
+
+}
+
+
+#EntradaDeDadosImagem {
+
+  width: 30%;
+  height: 550px;
+  padding-top: 20px;
+  float: right;
+  
+
+}
+
+#EntradaDeDadosImagem2 {
+
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  clear:both;
+  
+}
+
+#Numeros {
+
+width: 55%;
+height: 450px;
+background-color: RGBA(63,191,89,0.5);
+border: 1px solid black;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+float: left;
+
+
+}
+
+#Numeros p {
+
+  text-align: left;
+}
+
+#NumerosImagem {
+
+  width: 45%;
+  height: 450px;
+  padding-top: 20px;
+ 
+  float: right;
+}
+
+#Textos {
+
+  clear: both;
+  width: 100%;
+  height: 250px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  
+
+}
+
+#Textos p{
+  text-align: left;
+}
+
+#Textos h2{
+  text-align: left;
+}
+
+#TextosImagem {
+
+  width: 50%;
+  height: 450px;
+  padding-top: 20px;
+  float: left;
+
+
+}
+
+#TextosImagem2 {
+
+  width: 50%;
+  height: 450px;
+  padding-top: 20px;
+  float: right;
+  
+
+}
+
+#Formulas {
+
+  width: 100%;
+  height: 200px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  clear: both;
+  
+
+}
+
+#Formulas h2 {
+
+  text-align: center;
+
+}
+
+#Formulas p {
+
+  text-align: justify;
+
+}
+
+#Funcoes {
+
+  width: 100%;
+  height: 300px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#Funcoes h1 {
+
+  text-align: left;
+}
+
+#Funcoes h2 {
+
+  text-align: left;
+}
+
+#Funcoes p {
+
+  text-align: justify;
+}
+
+#AritmeticaImagem {
+
+width: 100%;
+height: 300px;
+padding-top: 20px;
+
+
+}
+
+#Condicionais {
+
+  width: 100%;
+  height: 250px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+#Condicionais h2 {
+
+  text-align: left;
+}
+
+#Condicionais p{
+
+  text-align: left;
+}
+
+#CondicionaisImagem {
+
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  
+
+}
+
+#Graficos {
+   width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#GraficosImagem {
+
+   width: 100%;
+  height: 200px;
+
+
+}
+
+#Graficos h2 {
+
+  text-align: left;
+}
+
+#Graficos p{
+
+  text-align: left;
+}
+
+#GraficoDeLinha {
+
+  width: 100%;
+  height: 350px;
+  
+
+}
+
+#GraficoDeColuna {
+
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+
+}
+
+#GraficoDeBarra {
+  
+  width: 100%;
+  height: 420px;
+  margin-top: 20px;
+  
+
+}
+
+#GraficoDePizza {
+
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+ 
+  
+}
+
+#Impressao {
+
+  width: 100%;
+  height: 200px;
+  background-color: RGBA(63,191,89,0.5);
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+
+}
+
+#Impressao p {
+
+  text-align: justify;
+}
+
+#ImpressaoImagem {
+
+  width: 100%;
+  height: 700px;
+ margin-bottom: 10px;
+
+
+}
+  /* rodapé */
+
+#Rodape {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 159, 187, 0.7);
+
+    clear: both;
+}
+
+#Rodape_logo {
+    height: 200px;
+    width: 750px;
+    float: left;
+    clear: both; 
+    padding-top: 10px;
+}
+
+#Rodape_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 440px;
+    float: left;
+    clear: both;
+}
+
+#Rodape_Users {
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+
+#Gab {
+  float: left;
+  clear: both;
+}
+
+#Luc {
+  float: left;
+}
+
+#Caio {
+  clear: both;
+  background-color: white;
+  float: left;
+}
+
+#Joh {
+  background-color: white;
+}
+
+.User_Icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.User_Icon:hover {
+  border: solid 4px blue;
+  cursor: pointer;
+}

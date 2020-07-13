@@ -1,0 +1,493 @@
+/* CSS RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face{
+  font-family: Blocks;
+  src: url(../Fonts/Topico1/VCR.ttf);
+}
+
+/* regras globais */
+
+#body {
+  background-image: url(../images/Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  color: inherit;
+}
+
+h1, h2{
+  
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  font-family: arial;
+}
+
+h2{
+  
+  font-size: 30px;
+  
+}
+
+p{
+
+  font-size: 20px;
+
+  font-family: arial;
+
+  text-align: center;
+
+  color: white;
+
+}
+
+/* fontes */
+
+
+.MenuFont {
+    font-size: 15px;
+    font-family: Blocks;
+    color: white;
+}
+
+/* padrões */
+.Conteudo {
+    width: 1300px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterOBJ {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--Partes do site*/
+
+/* -Header- */
+
+#Header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 159, 187, 0.9);
+}
+
+#Header_logo {
+    height: 156px;
+    width: 710px;
+    float: left;
+    clear: both; 
+    padding-top: 10px;
+}
+
+#Header_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 350px;
+}
+
+#Header_Menus {
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px black;
+    background-color: gray;
+}
+
+#OnSite {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  cursor: default;
+  text-align: center;
+  background-color: rgba(66, 66, 66, 0.7);
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.Menu {
+  width: 90px;
+  height: 50px;
+  padding-top: 12px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  background-color: rgba(66, 66, 66, 0.7);
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: 0.15s;
+  border: solid 1px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.Menu:hover {
+  width: 100px;
+  height: 70px;
+  padding-top: 23px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-top: 9px;
+}
+
+.Menu:active {
+  background-color: rgb(95, 95, 95);
+}
+
+/* conteudo */
+
+  /* Modo Gráfico */
+
+  #ModoGraficoTexto {
+
+    width: 100%;
+
+    height: 100px;
+
+    background-color: aqua;
+
+    clear: both;
+
+  }
+
+    #ModoGraficoImagem{
+
+      width: 100%;
+
+      height: 500px;
+
+      padding-left: 260px;
+
+    background-color: chartreuse;
+
+    }
+
+    /* Área de Trabalho */
+
+    #AreaDeTrabalho {
+
+      width: 30%;
+      height: 600px;
+      float: left;
+      padding-top: 25px;
+      background-color: red;
+
+    }
+
+    #AreaDeTrabalhoImagem {
+
+      height: 368px;
+      padding-top: 20px;
+      
+    }
+
+      /* Trabalho com Janelas */
+
+      #TrabalhoComJanelas {
+
+        width: 40%;
+        height: 600px;
+        padding-top: 25px;
+        float: left;
+        background-color: darkorchid;
+
+      }
+
+
+      #JanelasImagem {
+
+        height: 400px;
+        padding-top: 50px;
+
+
+      }
+
+        /* Configuração do Sistema */
+
+        #ConfiguracaoDoSistema {
+
+          width: 30%;
+          height: 600px;
+          padding-top: 25px;
+          float: left;
+          background-color: darkorange;
+        }
+
+          #FerramentasDoSistemaTexto {
+
+            width: 100%;
+            height: 100px;
+            background-color: gold;
+            clear: both;
+
+          }
+
+            #FerramentasDoSistemaImagem {
+          
+            width: 100%;
+            height: 500px;
+            background-color: mediumseagreen;
+            
+
+          }
+
+            #Acessorios{
+
+              width: 45%;
+              height: 600px;
+              background-color: midnightblue;
+                float: left;
+
+            }
+
+            #MenuDeAjuda {
+
+              width: 55%;
+              height: 600px;
+              background-color: darkkhaki;
+              float: right;
+            }
+
+            #GerenciamentoDeArquivos {
+
+              width: 40%;
+              height: 600px;
+              background-color: khaki;
+              float: left;
+            }
+
+            #UsuariosEPermissoes {
+
+              width: 60%;
+              height: 600px;
+              background-color: indigo;
+              float: right;
+            }
+
+            #InicializacaoFinalizacao {
+
+              width: 30%;
+              height: 600px;
+              background-color: indianred;
+              float: left;
+
+            }
+
+             #InicializacaoFinalizacaoImagem {
+              
+               width: 70%;
+               height: 600px;
+               background-color: palegreen;
+               float: right;
+
+            }
+
+            #InstalacaoMaquinaVirtual {
+
+              width: 60%;
+              height: 800px;
+              background-color: lightskyblue;
+              float: left;
+            }
+
+            #InstalacaoMaquinaVirtualImagem {
+
+              width: 40%;
+              height: 800px;
+              background-color: seagreen;
+              float: right;
+
+            }
+
+            #Pacotes{
+
+              width: 30%;
+              height: 600px;
+              background-color: darkslategray;
+              float: left;
+
+            }
+
+            #PacotesImagem {
+
+              width: 30%;
+              height: 600px;
+              background-color: hotpink;
+              float: left;
+
+            }
+
+            #Atualização {
+
+              width: 40%;
+              height: 600px;
+              background-color: khaki;
+              float: left;
+            }
+            
+            #Programas {
+
+              width: 55%;
+              height: 800px;
+              float: left;
+              background-color: fuchsia;
+            }
+
+            #ProgramasImagem {
+
+
+              width: 45%;
+              height: 800px;
+              float: right;
+              background-color: lime;
+            }
+
+  /* rodapé */
+
+#Rodape {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 159, 187, 0.7);
+
+    clear: both;
+}
+
+#Rodape_logo {
+    height: 200px;
+    width: 750px;
+    float: left;
+    clear: both; 
+    padding-top: 10px;
+}
+
+#Rodape_LogoIMG {
+    height: 140px;
+    width: 350px;
+    margin-left: 440px;
+    float: left;
+    clear: both;
+}
+
+#Rodape_Users {
+    height: 200px;
+    width: 250px;
+    float: right;
+}
+
+#Gab {
+  float: left;
+  clear: both;
+}
+
+#Luc {
+  float: left;
+}
+
+#Caio {
+  clear: both;
+  background-color: white;
+  float: left;
+}
+
+#Joh {
+  background-color: white;
+}
+
+.User_Icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 10px;
+  transition: 0.1s;
+}
+
+.User_Icon:hover {
+  border: solid 4px blue;
+  cursor: pointer;
+}
+#sobre {
+  height: 700px;
+  width: 1300px;
+  background-color: crimson;
+}
+/* Seção da caixa definição*/
+#CaixaDefinicao{
+  background-color: purple;
+  width:600px;
+  height:600px;
+  float: left;
+   margin-left: 20px;
+}
+#DefinicaoTexto{
+  float: left;
+  background-color: lightblue;
+  width: 300px;
+  height:450px;
+}
+#DefinicaoImagem{
+  float: left;
+  background-color: palevioletred;
+  width: 300px;
+  height:450px;
+}
+
+/*Seção da caixa História*/
+#CaixaHistoria{
+  background-color: chocolate;
+  width:  600px;
+  height: 600px;
+  float: left;
+  margin-left: 60px;
+}
+#ConteudoHistoria{
+ height: inherit;
+ width: inherit;
+ background-color: cyan;
+  
+}
+.Coluna1Titulo{
+  text-align: left;
+  margin-bottom: 20px;
+}
+#CaixaHistoria p{
+  float: left;
+  height: 540px;
+  width:400px;
+  background-color: cyan;
+} 
+#HistoriaImagens{
+  float: left;
+  height: 540px;
+  width:200px;
+  background-color: chartreuse;
+}
+#LinhaConteudo2{
+  height: 600px;
+  width: 1300px;
+  background-color: olive;
+}
