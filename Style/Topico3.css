@@ -121,7 +121,7 @@ p{
 
 }
 
-#Header_logo {
+#Header_Logo {
     height: 156px;
     width: 50%;
     float: left;
@@ -239,6 +239,14 @@ ul{
 
 .images{
     width: 33.3;
+}
+
+#banner {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/Topico3/opensourcebanner.jpg);
+    background-attachment: fixed;
+    background-size: 100% 600px;
 }
 /* conteudo */
 

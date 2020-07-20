@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+        <meta charset="utf-8">
+        <title>Arquitetura dos Sistemas Operacionais</title>
+        <link rel="stylesheet" type="text/css" href="Style/Topico1.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/ancora.js"></script>
+    </head>
+    
+    <body id="body">
+        <!-- Cabeçario -->
+        <div id="Header">
+          <div class="Conteudo">   
+              <div id="MenuNavegacao" class="CenterOBJ">
+                  <ul>
+                      
+                    <li class="SeletoresDeNavegacao">
+                        <a href="#Titulo">
+                            Historia 
+                        </a>   
+                    </li>
+                      
+                    <li class="SeletoresDeNavegacao">
+                        <a href="#GerenciadorDeProcesso">
+                            Gerenciador De Processo
+                        </a>   
+                    </li>
+                      
+                    <li class="SeletoresDeNavegacao">
+                        <a href="#SistemasDeArquivos">
+                            Sistemas De Arquivos
+                        </a>   
+                    </li>
+                      
+                    <li class="SeletoresDeNavegacao">
+                        <a href="#MonoTarefa">
+                            Sistemas Operacionais MonoTarefa
+
+                        </a>   
+                    </li>
+                      
+                    <li class="SeletoresDeNavegacao">
+                        <a href="#MultiTarefa">
+                            Sistemas Operacionais MultiTarefa
+
+                        </a>   
+                    </li>
+                
+                  </ul>
+              </div>
+              
+              <div id="Header_Logo">
+                  <img src="images/Logo.png" id="Header_LogoIMG" alt="Logo do senai">
+              </div>
+              
+              <div id="Header_Menus">
+                <ul class="MenuFont">
+                  
+                  <li id="OnSite"> 
+                   Arquitetura 
+                  </li>
+                  
+                  <li class="Menu"> 
+                    <a href="Topico2.html"> S.O Codigo Fechado </a>
+                  </li>
+
+                  <li class="Menu">
+                   <a href="Topico3.html"> S.O Codigo Aberto</a>
+                  </li>
+
+                  <li class="Menu">
+                   <a href="Topico4.html"> Editor de texto </a>
+                  </li>
+
+                  <li class="Menu">
+                    <a href="Topico5.html"> Planilha eletrônica </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        
+        <!-- Conteúdo -->
+        <div id="DivDeTodosOsConteudo" Class="Conteudo">
+            <div id="Titulo">
+                <h1>
+                    Arquitetura de sistemas operacionais
+                </h1>
+            </div>
+            
+            <div id="Definicao">
+                <p>
+                    Do inglês: operating System - OS, que significa Sistema operativo, que é um programa ou conjunto de programas com a função de gerenciar recursos do Sistema, como: definir qual programa receberá a atenção do processador, gerenciar a memória, criar um Sistema de arquivos. Principalmente fornece uma interface entre o computador a ser processado e o usuário.
+                </p>
+            
+            </div>
+            
+            <div id="Historia">
+                <div id="Historia_PrimeiroTexto">
+                    <h1>
+                        Historia
+                    </h1>
+                    
+                    <p id="Historia_PrimeiroTexto_Texto1">
+                        Aproximadamente entre 1945 e 1955, os computadores eram gigantescos, ocupando salas imensas, até mesmo andares. Eram constituídos de válvulas e painéis, e os SO eram "inexistentes". Os programadores, que também faziam o papel de operadores, controlavam os computadores por meio de Chaves, fios e luzes de aviso.
+                    </p>
+
+                    <p id="Historia_Texto2">
+                        Howard Aiken (Harvard), John Von Neumann (Instituto de Estudos Avançados de Princeton), John Adam Presper Eckert Jr William Mauchley (Universidade da Pennsylvania) Konrad Zuse (Alemanha), são grandes nomes pois, foram deles a formação e contribuição a base da construção dos computadores primitivos. 
+                        
+                        Na geração seguinte (próximo de 1955-1965), foram criados sistemas em lote (batch systems), que eram mais fáceis quanto ao uso de recursos computacionais. A base do sistema operacional era um programa monitor, usado para enfileirar "jobs" (tarefas). O usuário teve um distanciamento maior do computador, pois cada programa era escrito em cartões perfurados, que eram carregados junto com o respectivo compilador (normalmente Fortran ou Cobol), um operador que usava uma linguagem de controle chamada JCL (Job Control Language).
+                    </p>
+                </div>
+                
+                <div id="Historia_Image">  
+                    <img src="images/Topico1/OldSOPs.jpg" alt="Imagem dos sistemas speracionais" id="Historia_Image_OldSops">
+                </div>
+                
+                <div id="Historia_SegundoTexto"> 
+                    <p id="Historia_SegundoTexto_Texto1">
+                        Um dos primeiros SO de propósito geral foi o CTSS, criado no MIT. Após o CTTS, o MITO, os laboratórios Bell da AT&T e General Electric, desenvolveram o Multics, com a objetividade de suportar centenas de usuários. Mesmo com o fracasso comercial, o Multics serviu como base para o estudo e desenvolvimento de novos sistemas operacionais.
+                        Um dos desenvolvedores Multics, que trabalhava para a Bell, Ken Thompson, começou reescrever o projeto, com menos ambição e assim, criou o Unics (1969), que mais tarde recebeu o nome de Unix. Geralmente os Sistemas operacionais eram programados em assembly, até mesmo o Unix no início. Dennis Ritchie (também da Bell) criou a linguagem C, a partir da linguagem B (criada por Tompson). Finalmente, Tompson e Ritchie reescreverram o Unix em C. Assim, o Unix criou um sistema derivado de versões, onde se detacam: System V e derivados (HP-UX, AIX); família BSD (FreeBSD, NetBSD, OpenBSD, etc.), Linux e até o Mac OS X (que deriva do Mach e FreeBSD). O BSD foi lançado em 1977, baseado no Unix e principalmente focado na execução em máquinas de alto desempenho, como o famigerado computador Caxias, uma grande referência de hardware na época.
+                    </p>
+                    
+                    <p id="Historia_SegundoTexto_Texto2">
+                        Na década de 70, o Unix foi distribuído gratuitamente (assim como o código fonte), para universidades norte-americanos, o que desenvolveu popularidade a este sistema. A interface era em modo texto, sem interface gráfica. Quando surgiu computadores pessoais, houve a necessidade de um Sistema Operacional com mais facilidade na utilização.
+                        Em 1980, William (Bill) Gates e seu colega de faculdade, Paul Allen, fundadores da Microsoft, compraram o sistema QDOS (‘‘Quick and Dirty Operating System’’) de Tim peterson e batizaram-no de MS-DOS (Microsoft Disk Operating System).
+                    </p>
+                    
+                    <p id="Historia_SegundoTexto_Texto3">
+                        No começo da década de 1990, um estudante finlandês de computação (Linus Torvalds ), postou um comentário numa lista de discussão da Usenet, dizendo estar desenvolvendo um núcleo de Sistema Operacional e perguntou se alguém gostaria de ajudá-lo na tarefa. 
+                        Daí surgiu o primeiro passo ao famigerado Lixux.
+                    </p>
+                </div>
+            </div>
+        
+            <div id="GerenciadorDeProcesso">
+                <div id="GerenciadorDeProcesso_Texto">  
+                    <h1>
+                        Gerenciador De Processo
+                    </h1>   
+
+                    <p>
+                      O gerenciador de processos é onde serão definidas todas as propriedades dos processos, sua principal função é a execução do processo no processador. São divididos em três tipos: Gerenciadores por Admissão, Gerenciadores Despachantes e Gerenciadores por Tempo Médio. O gerenciador de processos usa algoritmos para separar os processos.  
+                    </p>
+                
+                </div>
+                
+                <div id="GerenciadorDeProcesso_Imagem">
+                    <img src="images/Topico1/TaskManager.jpg" alt="Imagem de um icone do Gerenciador de Tarefas" id="GerenciadorDeProcesso_DivImagem">     
+                </div>
+            </div>
+        
+            <div id="SistemasDeArquivos">
+                <div id="SistemasDeArquivos_Texto">
+                    <h1>
+                        Sistema de Arquivos
+                    </h1>
+                    
+                    <p>
+                        Um sistema de arquivo ou file system em inglês, é uma estrutura lógica que é usado em todos os HDs ou SSDs de memória Flash. Armazena dados e permite ao sistema operacional ter acesso e controlar os dados que estão gravados no disco. Cada sistema de arquivos possui suas próprias peculiaridades como espaço, velocidade e qualidade e como será os acesos destes dados.
+                    </p>
+                </div>
+            
+                <div id="SistemasDeArquivos_Image">
+                    <img src="images/Topico1/FileSystem.png" alt="Foto de um icone de um sistema de arquivo" id="SistemasDeArquivos_DivImage">
+                </div>
+            </div>
+            
+            <div id="MonoTarefa">
+                <div id="MonoTarefaTexto1">
+                    <h1>
+                        Sistemas Operacionais MonoTarefa
+                    </h1>
+                    
+                    <p>
+                        S.O monotarefas, como o nome sugere, são sistemas que executam 1 tarefa por vez, portanto esses sistemas não podiam executar mais de 1 aplicativo simultaneamente, como acontece nos dias de hoje. Esses sistemas caíram em desuso hoje em dia com a evolução da tecnologia. Antigamente, seu funcionamento se dava pela seguinte forma: O processador ficava inativo enquanto um programa não recebia uma instrução. Seu processamento voltava-se somente a este programa que estava sendo executado, enquanto os periféricos da máquina não funcionavam integralmente.
+                    </p>
+                </div>
+                
+                <div id="MonoTarefaTexto2">  
+                    <p>
+                        Esse tipo de sistema caiu em desuso não só pela evolução da tecnologia e engenharia de hardware, mas também porque sua funcionalidade era um tanto inepta. Os periféricos que compunham todo o hardware do programa tinham um desempenho desperdiçado, já que ficavam em modo ocioso quando não eram necessários para a execução de uma tarefa. Isso muitas vezes acabava gerando desperdício até de dinheiro. 
+                    </p>          
+                </div>
+                
+                <div id="MonoTarefaImageDiv">
+                    <img src="images/Topico1/MS-DOS.jpg" alt="Icone do MS-DOS" id="MonoTarefaImage">
+                </div>
+            </div>
+            
+            <div id="MultiTarefa">
+                <h1>
+                    Sistemas Operacionais MultiTarefa
+                </h1>
+                
+                <p>
+                    Ao contrário dos Sistemas Operacionais MonoTarefa, os S.O’s multitarefas podem processar mais de um programa ao mesmo tempo. Os sistemas operacionais da atualidade são multitarefa. Eu posso fazer um trabalho no word enquanto deixo 2 abas do google chrome abertas e escuto música pelo youtube, por exemplo.
+                </p>
+                
+                <p>
+                    Claro que com a chegada desse tipo de sistema, a montagem do hardware de uma máquina tornou-se muito mais complexa, envolvendo mais processos e periféricos para a administração desse fluxo de informação.
+                </p>
+                
+                <p>
+                    O funcionamento de um sistema multitarefa varia, podendo ser preemptiva ou até mesmo ter um processamento paralelo. A “preemptividade” funciona com base em breves interrupções: enquanto um programa está em desuso, o processamento é interrompido e voltado ao programa que está em atividade, porém, o programa interrompido não é encerrado. Seus dados permanecem salvos e o programa permanece funcionando, pronto para ser retomado depois. 
+                </p>
+                
+                <p>
+                    O processamento paralelo não necessita dessas breves interrupções, visto que há núcleos de processamento suficiente para que a máquina execute dois programas simultaneamente.
+                </p>
+            </div>
+            
+        </div>
+        <!-- Rodapé -->
+        <div id="Rodape">
+            <div class="Conteudo">
+              <div id="Rodape_Logo">
+                  <img src="images/Logo.png" id="Rodape_LogoIMG" alt="Logo do senai">
+              </div>
+
+              <div id="Rodape_Users">
+                <a href="https://github.com/Yukikuroshiro" target="_blank"><img src="images/Coders/Gab.png" id="Gab" class="User_Icon" alt="GitHub Icon"></a>
+                <a href="https://github.com/oipul-class" target="_blank"><img src="images/Coders/Luc.png" id="Luc" class="User_Icon" alt="GitHub Icon"></a>
+                <a href="https://github.com/CaioM4rcolino" target="_blank"><img src="images/Coders/Caio.jpg" id="Caio" class="User_Icon" alt="GitHub Icon"></a>
+                <a href="" target="_blank"><img src="images/Coders/NoImg.png" id="Joh" class="User_Icon" alt="GitHub Icon"></a>
+              </div>
+          </div>
+      </div>
+ </body>
+
+</html>

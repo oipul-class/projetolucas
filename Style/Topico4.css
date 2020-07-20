@@ -15,7 +15,7 @@ src: url(../Fonts/Topico4/Typewriter.ttf);
 /* regras globais */
 
 #body {
-background-color: white;
+background-color: #e0e0e0;
 }
 
 a {
@@ -65,7 +65,13 @@ li {
   font-family: Blocks;
   color: white;
 }
-
+.backgroundImg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 /* padrões */
 .Conteudo {
   width: 1300px;
@@ -86,13 +92,15 @@ li {
 /* -Header- */
 
 #Header {
-  width: 100%;
-  height: 160px;
-  background-color: rgba(0, 159, 187, 0.7);
-  position: fixed;
+    width: 100%;
+    height: 158px;
+    background-color: rgba( 235, 235, 235, 0.5 );
+    position: fixed;
+    border-radius: 15px;
+    border: solid 2px rgba( 219, 219, 219, 0.5 );
 }
 
-#Header_logo {
+#Header_Logo {
   height: 156px;
   width: 710px;
   float: left;
@@ -102,46 +110,47 @@ li {
 
 #Header_LogoIMG {
   height: 140px;
-  width: 350px;
-  margin-left: 350px;
+  width: 450px;
+  margin-left: 250px;
 }
 
 #Header_Menus {
-  height: 90px;
-  width: 590px;
-  float: right;
-  margin-top: 45px;
-  border: solid 2px black;
+    height: 90px;
+    width: 590px;
+    float: right;
+    margin-top: 45px;
+    border: solid 2px rgba( 219, 219, 219, 0.5 );
+    border-radius: 15px;
 }
 
 #OnSite {
-width: 90px;
-height: 50px;
-padding-top: 12px;
-cursor: default;
-text-align: center;
-background-color: rgba(66, 66, 66, 0.7);
-float: left;
-margin-left: 22px;
-margin-top: 20px;
-transition: 0.15s;
-border: solid 1px blue;
-border-radius: 8px;
+    width: 90px;
+    height: 50px;
+    padding-top: 12px;
+    cursor: default;
+    text-align: center;
+    background-color: rgba(66, 66, 66, 0.7);
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+    transition: 0.15s;
+    border: solid 1px blue;
+    border-radius: 8px;
 }
 
 .Menu {
-width: 90px;
-height: 50px;
-padding-top: 12px;
-text-align: center;
-float: left;
-background-color: rgba(66, 66, 66, 0.7);
-margin-left: 22px;
-margin-top: 20px;
-transition: 0.15s;
-border: solid 1px white;
-border-radius: 8px;
-text-decoration: none;
+    width: 90px;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+    float: left;
+    background-color: rgba(66, 66, 66, 0.7);
+    margin-left: 22px;
+    margin-top: 20px;
+    transition: 0.15s;
+    border: solid 1px white;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 .Menu:hover {
@@ -166,9 +175,6 @@ background-color: rgb(95, 95, 95);
   background-image: url(../images/Topico4/Banner.jpg); 
   width: 100%;
   height: 600px;  
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
   margin-bottom: 50px;
 }
 
@@ -242,11 +248,12 @@ background-color: rgb(95, 95, 95);
 /* rodapé */
 
 #Rodape {
-  width: 100%;
-  height: 200px;
-  background-color: rgba(0, 159, 187, 0.7);
-  
-  clear: both;
+    width: 100%;
+    height: 200px;
+    background-color: rgba( 235, 235, 235, 0.5 );
+    border-radius: 15px;
+    border: solid 2px rgba( 219, 219, 219, 0.5 );
+    clear: both;
 }
 
 #Rodape_logo {
@@ -259,8 +266,8 @@ background-color: rgb(95, 95, 95);
 
 #Rodape_LogoIMG {
   height: 140px;
-  width: 350px;
-  margin-left: 440px;
+  width: 450px;
+  margin-left: 250px;
   float: left;
   clear: both;
 }

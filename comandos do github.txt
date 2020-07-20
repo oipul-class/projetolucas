@@ -1,0 +1,50 @@
+16:57 08/07/2020#
+# titulo // cria o titulo
+
+README.md
+
+
+
+
+
+
+
+
+do git bash---
+
+git add - mandar os arquivos para o repositório
+
+git add (.) -  manda tudo
+
+-m - mensagem
+
+git commit - colocar na lista de push os arquivos
+
+git status - ver os arquivos que estão modificados ou faltando
+
+git pull - fazer download nas modificações dos arquivos ou arquivos que estão faltando
+
+git switch - troca de branchs
+
+git restore (arquivo) - restaura/baixar o arquivo de volta 
+
+git remote add (url) - adicionar um acesso ao reposítorio 
+
+-pra mandar arquivos
+
+1. git add (arquivo) 
+2. git commit -m "(mensagem)
+3. git push - pra dar upload
+
+-caso erro
+
+1.git status
+2.git pull 
+
+-primeira vez
+1. git init
+2. git add ReadMe.md
+3. git commit -m "primeiro commit"
+4. git remote add origin (url)
+5. git push -u orgin master
+

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: OSTerminal;
+    src: url(../Fonts/Topico1/VCR.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.CenterOBJ {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Body {
+    background-color: black;
+}
+
+#Terminal {
+    width: 100%;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#Conteudo {
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px white;
+}
+
+#Top {
+    width: 1296px;
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: OSTerminal, Arial;
+    letter-spacing: 5px;
+    
+}
+
+#Lines {
+    width: 1298px;
+    height: 360px;
+}
+
+.Line {
+    width: 1298px;
+    height: 20px;
+    padding-left: 5px;
+    letter-spacing: 5px;
+    font-family: OSTerminal, Arial;
+    color: white;
+    margin-top: 5px;
+}
+
+#Help {
+    height: 60px;
+}
+
+#ProgrammersList {
+    height: 40px;
+    
+}
+
+.ListSide {
+    float: left;
+    margin-right: 200px;
+}
